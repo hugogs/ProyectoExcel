@@ -1,9 +1,7 @@
 Attribute VB_Name = "AFormatoEca"
 Sub FormatoEca(Control As IRibbonControl)
 'Sub FormatoEca()
-    'Dedicado a mi Se駉r Todopoderoso
-    'Creado por: Hugo Garcia Silva V3.0
-    'Ultima actualizacion 12.01.2018
+    'Dedicado a mi Se帽or Todopoderoso
     Application.ScreenUpdating = False
     Application.DisplayAlerts = False
     Application.EnableEvents = False
@@ -23,19 +21,17 @@ Sub FormatoEca(Control As IRibbonControl)
     Application.EnableEvents = True
 End Sub
 Private Sub Validacion_Incidencia()
-    'Dedicado a mi Se駉r Todopoderoso
-    'Creado por: Hugo Garcia Silva V3.0
-    'Ultima actualizacion 12.01.2018
+    'Dedicado a mi Se帽or Todopoderoso
     '---INCIDENCIAS---
     Sheets("Incidencias").Visible = xlSheetVisible
     Sheets("Incidencias").Select
     'Validacion
     Range("A11").Select
-    'Declaraci髇 de variables de validaci髇
+    'Declaraci贸n de variables de validaci贸n
     Dim a, b As Integer
     a = 1
     b = 0
-    'Validaci髇 de registros
+    'Validaci贸n de registros
     Do While a <= 5
         If Cells(11 + b, 1).Value = "" Then
             'Cells(11 + b, 1).Select
@@ -57,9 +53,7 @@ Private Sub Validacion_Incidencia()
     Portapapeles.Clear
 End Sub
 Private Sub Formato_Incidencia()
-    'Dedicado a mi Se駉r Todopoderoso
-    'Creado por: Hugo Garcia Silva V3.0
-    'Ultima actualizacion 12.01.2018
+    'Dedicado a mi Se帽or Todopoderoso
     Sheets("Incidencias").Select
     'Seleccionar todas las celdas y acomoda
     Cells.Select
@@ -111,19 +105,17 @@ Private Sub Formato_Incidencia()
     Range("L11").Select
 End Sub
 Private Sub Validacion_PareoMarcaje()
-    'Dedicado a mi Se駉r Todopoderoso
-    'Creado por: Hugo Garcia Silva V3.0
-    'Ultima actualizacion 12.01.2018
+    'Dedicado a mi Se帽or Todopoderoso
     '---PAREO MARCAJES---
     Sheets("PareoMarcajes").Visible = xlSheetVisible
     Sheets("PareoMarcajes").Select
     'Validacion
     Range("A12").Select
-    'Declaraci髇 de variables de validaci髇
+    'Declaraci贸n de variables de validaci贸n
     Dim c, d As Integer
     c = 1
     d = 0
-    'Validaci髇 de registros
+    'Validaci贸n de registros
     Do While c <= 5
         If Cells(12 + d, 1).Value = "" Then
             'Cells(12 + d, 1).Select
@@ -144,9 +136,7 @@ Private Sub Validacion_PareoMarcaje()
     Portapapeles.Clear
 End Sub
 Private Sub Formato_PareoMarcaje()
-    'Dedicado a mi Se駉r Todopoderoso
-    'Creado por: Hugo Garcia Silva V3.0
-    'Ultima actualizacion 12.01.2018
+    'Dedicado a mi Se帽or Todopoderoso
     Sheets("PareoMarcajes").Select
     Cells.Select
     Cells.RowHeight = 15
@@ -222,19 +212,17 @@ Private Sub Formato_PareoMarcaje()
     Range("I12").Select
 End Sub
 Private Sub Validacion_ResumenHoras()
-    'Dedicado a mi Se駉r Todopoderoso
-    'Creado por: Hugo Garcia Silva V3.0
-    'Ultima actualizacion 12.01.2018
+    'Dedicado a mi Se帽or Todopoderoso
     '---RESUMEN HORAS---
     Sheets("ResumenHoras").Visible = xlSheetVisible
     Sheets("ResumenHoras").Select
     'Validacion
     Range("A13").Select
-    'Declaraci髇 de variables de validaci髇
+    'Declaraci贸n de variables de validaci贸n
     Dim c, d As Integer
     c = 1
     d = 0
-    'Validaci髇 de registros
+    'Validaci贸n de registros
     Do While c <= 5
         If Cells(13 + d, 1).Value = "" Then
             'Cells(13 + d, 1).Select
@@ -257,9 +245,7 @@ Private Sub Validacion_ResumenHoras()
     Portapapeles.Clear
 End Sub
 Private Sub Formato_ResumenHoras()
-    'Dedicado a mi Se駉r Todopoderoso
-    'Creado por: Hugo Garcia Silva V3.0
-    'Ultima actualizacion 12.01.2018
+    'Dedicado a mi Se帽or Todopoderoso
     Sheets("ResumenHoras").Select
     'Formato a 02 decimales
     Range("C13").Select
@@ -348,19 +334,17 @@ Private Sub Formato_ResumenHoras()
     Range("C13").Select
 End Sub
 Private Sub Validacion_ResumenHorasDetalle()
-    'Dedicado a mi Se駉r Todopoderoso
-    'Creado por: Hugo Garcia Silva V3.0
-    'Ultima actualizacion 12.01.2018
+    'Dedicado a mi Se帽or Todopoderoso
     '---RESUMEN HORAS DETALLE---
     Sheets("ResumenHorasDetalle").Visible = xlSheetVisible
     Sheets("ResumenHorasDetalle").Select
     'Validacion
     Range("A13").Select
-    'Declaraci髇 de variables de validaci髇
+    'Declaraci贸n de variables de validaci贸n
     Dim c, d As Integer
     c = 1
     d = 0
-    'Validaci髇 de registros
+    'Validaci贸n de registros
     Do While c <= 5
         If Cells(13 + d, 1).Value = "" Then
             'Cells(13 + d, 1).Select
@@ -383,9 +367,7 @@ Private Sub Validacion_ResumenHorasDetalle()
     Portapapeles.Clear
 End Sub
 Private Sub Formato_ResumenHorasDetalle()
-    'Dedicado a mi Se駉r Todopoderoso
-    'Creado por: Hugo Garcia Silva V3.0
-    'Ultima actualizacion 12.01.2018
+    'Dedicado a mi Se帽or Todopoderoso
     Sheets("ResumenHorasDetalle").Select
     'Formato a 02 decimales
     Range("G13").Select
